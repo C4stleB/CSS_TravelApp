@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: #e8e8ed;
+  display: flex;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0;
+}
+
+h1 {
+  margin: 0px;
+}
+
+h2 {
+  color: #0545ff;
+}
+
+h3 {
+  padding: 3px;
+  margin: 0;
+}
+
+.phone {
+  height: 700px;
+  width: 350px;
+  border-radius: 40px;
+  box-shadow: 30px 30px 40px rgba(118, 146, 180, 0.18);
+  overflow: hidden;
+  background-color: #eeeff5;
+}
+
+.top,
+.main {
+  padding: 0 30px;
+  height: 300px;
+}
+
+.top {
+  background: linear-gradient(to bottom, transparent, #eeeff5),
+    url("https://images.freeimages.com/images/large-previews/b6e/swiss-landscape-2-1528075.jpg");
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.icons {
+  font-size: 15px;
+}
+
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.pics {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pic,
+.pic-more {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.pic-more {
+  background-color: #3f67ff;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.categories {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.category {
+  background-color: #dce2f8;
+  color: #0545ff;
+  padding: 7px 12px;
+  margin: 0 5px;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+}
+
+.title-column {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.like-btn {
+  background-color: white;
+  color: #ff2339;
+  border-radius: 50%;
+  box-shadow: 3px 3px 4px rgba(118, 146, 180, 0.18);
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gps {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.overview {
+  margin: 10px 0;
+}
+
+.opac {
+  opacity: 0.6;
+  font-weight: 400;
+}
+
+.gps i {
+  color: #3f67ff;
+  opacity: 1;
+}
+
+.rate-column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rate {
+  display: flex;
+  align-items: center;
+}
+
+.rate i {
+  color: #ffbc00;
+  padding: 1px;
+}
+
+.desc {
+  color: #6c7ea3;
+}
+
+.nav {
+  background-color: #ffffff;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav i {
+  color: #92a1bc;
+}
+
+.nav i:nth-child(2) {
+  color: #3f67ff;
+}
+
+.route i {
+  color: white;
+  border: white 2px solid;
+  border-radius: 50%;
+  position: relative;
+  bottom: 50px;
+  background-color: #3f67ff;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 4px 4px rgba(118, 146, 180, 0.18);
+}
+
+.half-circle {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 150px;
+  left: 46%;
+  background-color: #3f67ff;
+  width: 60px;
+  height: 60px;
+}
